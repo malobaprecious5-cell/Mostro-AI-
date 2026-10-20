@@ -1,0 +1,33 @@
+# Copy to .env (never commit .env)
+ENV=dev
+LOG_LEVEL=INFO
+
+# Database (psycopg3 driver)
+DATABASE_URL=postgresql+psycopg://user:password@hostname:port/database
+
+# LLM: DeepSeek (OpenAI-compatible API)
+DEEPSEEK_API_KEY=your-api-key
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+LLM_MODEL_FAST=deepseek-v4-flash   # guardrails, routing, query rewriting
+LLM_MODEL_MAIN=deepseek-v4-pro     # answer generation
+
+# Embeddings: Voyage API (all environments)
+VOYAGE_API_KEY=your-api-key
+EMBEDDING_MODEL=voyage-multimodal-3.5
+EMBEDDING_DIM=1024                 # must match VECTOR(n) in the schema
+EMBEDDING_REQUESTS_PER_MINUTE=500   # In case the API Usage has limits
+
+# Service-to-service auth: the backend gateway sends this in X-Internal-Key
+INTERNAL_API_KEY=change-me
+ADMIN_API_KEY=abc
+CORS_ORIGINS='["http://localhost:3000","http://127.0.0.1:3000"]'
+
+# Retrieval tuning
+RETRIEVAL_CANDIDATES=30
+RERANK_TOP_K=6
+ABSTAIN_SCORE_THRESHOLD=0.30
+
+# Observability (optional)
+LANGFUSE_PUBLIC_KEY=
+LANGFUSE_SECRET_KEY=
+LANGFUSE_HOST=http://localhost:3000
