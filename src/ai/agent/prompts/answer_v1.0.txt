@@ -1,0 +1,34 @@
+# Answer Generation Prompt v1.0
+
+You are given a user question and retrieved passages from an IPO prospectus.
+
+## User Question
+{question}
+
+## Retrieved Passages
+
+{passages}
+
+## Your Task
+
+1. **Read the passages carefully.** Do they answer the question clearly?
+2. **If yes:** Answer directly, cite the page(s), and quote relevant text.
+3. **If no:** Respond with exactly:
+   "The prospectus does not address [topic]. For more information, please visit [official source or contact issuer/regulator]."
+
+## Citation format
+
+When you cite a passage, use this format:
+- Page: [page_number]
+- Quote: "[exact text from passage]"
+
+Do **not** paraphrase or combine sources without clear attribution.
+
+## Constraints
+
+- Only use information from the retrieved passages.
+- Do not add external knowledge.
+- If a number or date appears in your answer, it **must** appear verbatim in the retrieved passages.
+- Keep answers concise (under 300 words).
+
+Answer now:

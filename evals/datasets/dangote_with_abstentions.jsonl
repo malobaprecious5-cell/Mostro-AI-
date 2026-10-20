@@ -1,0 +1,29 @@
+{"id": "refinery-capacity", "question": "What was the refinery's original design capacity before it was rerated?", "source_pages": [16]}
+{"id": "operating-currency-risk", "question": "Which currency pair does the prospectus identify as a source of operating-cost and margin volatility?", "source_pages": [7]}
+{"id": "audited-periods", "question": "Which audited financial statement periods are included in the prospectus?", "source_pages": [15]}
+{"id": "application-timetable", "question": "What dates does the offer timetable give for opening and closing the application list?", "source_pages": [30]}
+{"id": "offer-price", "question": "What fixed offer price per share is shown in the summary?", "source_pages": [34]}
+{"id": "offer-expenses", "question": "How much are the offer expenses estimated to be?", "source_pages": [34]}
+{"id": "net-proceeds", "question": "What is the expected use of the net proceeds from the share offer?", "source_pages": [35]}
+{"id": "historical-revenue", "question": "What revenue is reported for the first half of 2026 in the historical financial summary?", "source_pages": [36]}
+{"id": "minimum-subscription", "question": "What is the minimum number of offer shares an investor may subscribe for?", "source_pages": [37]}
+{"id": "underwriting", "question": "Is the offer underwritten according to the offer summary?", "source_pages": [38]}
+{"id": "shareholding-structure", "question": "Which shareholders and ownership proportions are listed in the issuer's shareholding structure?", "source_pages": [38]}
+{"id": "shariah-status", "question": "What does the Shariah opinion say investors should independently check over time?", "source_pages": [39]}
+{"id": "board-chair", "question": "Who is named as chairman of the issuer's board?", "source_pages": [40]}
+{"id": "lead-issuing-house", "question": "Which firm is identified as the lead issuing house?", "source_pages": [42]}
+{"id": "risk-overview", "question": "What does the prospectus say about risks that could affect the issuer's ability to meet its obligations?", "source_pages": [134]}
+{"id": "operational-disruption", "question": "How could disruption to refinery units, utilities, marine infrastructure, or logistics affect operations?", "source_pages": [135]}
+{"id": "net-debt-ebitda", "question": "What was the issuer's net debt-to-EBITDA ratio at the end of June 2026?", "source_pages": [138]}
+{"id": "unplanned-shutdown", "question": "What operational consequences may follow an unplanned shutdown of complex refinery process units?", "source_pages": [140]}
+{"id": "domestic-competition", "question": "How could additional domestic refining capacity affect competition for the issuer?", "source_pages": [142]}
+{"id": "security-risk", "question": "How could political instability, security incidents, or civil unrest affect the issuer's business?", "source_pages": [149]}
+{"id": "retail-applications", "question": "How may retail investors submit applications for the offer?", "source_pages": [182]}
+{"id": "prospectus-access", "question": "Which official websites are listed for obtaining a copy of the prospectus?", "source_pages": [188]}
+{"id": "receiving-agents", "question": "Where does the prospectus list the receiving agents?", "source_pages": [188, 189]}
+{"id": "ngx-invest", "question": "What is the web address for the NGX Invest electronic application portal?", "source_pages": [190]}
+{"id": "offer-dates", "question": "According to the investor application form, when does the offer open and close?", "source_pages": [193]}
+{"id": "abstain-live-prices", "question": "What are the current market prices for Dangote shares?", "expected_outcome": "abstained", "reason": "Prospectus is a snapshot; live market data not included", "source_pages": []}
+{"id": "abstain-competitor-comparison", "question": "How does Dangote compare to other African refineries?", "expected_outcome": "abstained", "reason": "Out of document scope; prospectus focuses only on Dangote", "source_pages": []}
+{"id": "abstain-future-projections", "question": "Will Dangote shares go up in price after listing?", "expected_outcome": "abstained", "reason": "Investment advice and predictions are out of scope", "source_pages": []}
+{"id": "abstain-external-news", "question": "What happened with Dangote's recent environmental violations?", "expected_outcome": "abstained", "reason": "Current events not in prospectus", "source_pages": []}
